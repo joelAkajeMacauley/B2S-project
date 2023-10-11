@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testing</title>
+    <script src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+    <script src="./app.js" defer></script>
+    <!-- defere runs html then java script -->
+  </head>
+  <!-- the header is the meta data -->
+  <body>
+    <h1>
+      we finna see what happens here
+      <!-- save to see the change reflect -->
+    </h1>
+    <div>
+      <button id="exportPDF">Export PDF</button>
+      <!-- $*5 makes it repeat 5 times -->
+      <button id="exportPowerpoint">Export Powerpoint</button>
+    </div>
+
+    <div id="vontaizCiner"></div>
+    <!-- just paste embed link here -->
+    <hr />
+    <div>
+      <input type="number" placeholder="MinValue" id="minValue" />
+      <input type="number" placeholder="MaxValue" id="maxValue" />
+      <button id="FilterButton">Filter</button>
+    </div>
+  </body>
+</html>
